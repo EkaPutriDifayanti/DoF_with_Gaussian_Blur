@@ -49,13 +49,18 @@ pip install numpy opencv-python matplotlib
 1. Clone repository ini atau unduh file `.ipynb`
 2. Simpan gambar input di direktori yang sama, atau sesuaikan path file gambar.
 3. Buka terminal dan jalankan:
-
+Opsi A – Menggunakan Jupyter Notebook
 ```bash
-python Simulasi_DoF_with_gaussian_blur.ipynb
+jupyter notebook Simulasi_DoF_with_gaussian_blur.ipynb
 ```
-
+Opsi B – Ubah ke bentuk .py lalu Jalankan
+```bash
+jupyter nbconvert --to script Simulasi_DoF_with_gaussian_blur.ipynb
+python Simulasi_DoF_with_gaussian_blur.py
+```
 4. Program akan menampilkan hasil visualisasi berupa:
 
+   * Citra asli
    * Mask warna merah
    * Mask putih (standalone & dalam area merah)
    * Hasil segmentasi
