@@ -24,7 +24,7 @@ Tujuan dari program ini adalah untuk:
 ### **1. Melalui Google Colab**
 
 1. Buka [Google Colab](https://colab.research.google.com/)
-2. Upload file Python notebook (`.ipynb`) atau salin isi dari file `tugas_viskom.py`.
+2. Upload file Python notebook (`.ipynb`) atau salin isi dari file `Simulasi_DoF_with_gaussian_blur.ipynb`.
 3. Upload gambar rambu ke Colab (`Files` → Upload).
 4. Ubah path gambar pada bagian ini di script:
    ```
@@ -46,12 +46,12 @@ pip install numpy opencv-python matplotlib
 
 #### Jalankan Program
 
-1. Clone repository ini atau unduh file `.py`
+1. Clone repository ini atau unduh file `.ipynb`
 2. Simpan gambar input di direktori yang sama, atau sesuaikan path file gambar.
 3. Buka terminal dan jalankan:
 
 ```bash
-python tugas_viskom.py
+python Simulasi_DoF_with_gaussian_blur.ipynb
 ```
 
 4. Program akan menampilkan hasil visualisasi berupa:
