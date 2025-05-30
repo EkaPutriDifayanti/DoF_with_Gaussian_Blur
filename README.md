@@ -66,9 +66,9 @@ python Simulasi_DoF_with_gaussian_blur.ipynb
 ## Struktur File
 
 ```
-├── tugas_viskom.py            # File utama program simulasi
-├── Images/                    # Folder untuk menyimpan input gambar
-├── README.md                  # Dokumentasi ini
+├── python Simulasi_DoF_with_gaussian_blur.ipynb   # File utama program simulasi
+├── Images/                                        # Folder untuk menyimpan input gambar
+├── README.md                                      # Dokumentasi ini
 ```
 
 ---
